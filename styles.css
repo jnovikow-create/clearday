@@ -1,12 +1,12 @@
 :root {
-  --bg: #0e1726;
-  --bg-2: #23304a;
-  --card: #1b2738;
-  --fg: #e8eef5;
-  --muted: #8a9bb0;
-  --dawn: #7fd1c7;
-  --ember: #ff8a5b;
-  --sunrise: #ffc56e;
+  --bg: #14110f;
+  --bg-2: #2a2420;
+  --card: #26211d;
+  --fg: #f3ede6;
+  --muted: #a8988c;
+  --dawn: #8fbfb0;
+  --ember: #e8a15a;
+  --sunrise: #f0c27a;
   --line: rgba(232, 238, 245, 0.12);
 }
 
@@ -15,8 +15,8 @@
 body {
   font-family: "SF Pro Rounded", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   background:
-    radial-gradient(900px 420px at 50% -10%, rgba(255, 138, 91, 0.18), transparent 60%),
-    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 55%, #4a3b52 100%);
+    radial-gradient(900px 420px at 50% -10%, rgba(232, 161, 90, 0.16), transparent 60%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 55%, #3d322c 100%);
   background-attachment: fixed;
   color: var(--fg);
   line-height: 1.55;
@@ -45,7 +45,7 @@ ul { padding-left: 1.2em; margin-bottom: 8px; }
 
 .cards { display: grid; gap: 12px; }
 .card, .link-card {
-  background: rgba(27, 39, 56, 0.92);
+  background: rgba(38, 33, 29, 0.92);
   border: 1px solid var(--line);
   border-radius: 18px;
   padding: 16px 18px;
